@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- link aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- close aos -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <title>Erna</title>
+</head>
+<body>
+    <style>
+          .kepala{
+            display: flex;
+            width: 1370px;
+            height:50px;
+            background-color: rgb(95, 158, 253);
+            justify-content: space-around;
+          }
+          *{
+            padding:0;
+            margin:0;
+          }
+          a{
+            font-size:18px;
+            display: inline-block;
+            margin: 10px;
+            color:white;
+          }
+          li{
+        display: inline-block;
+        color:white;
+        margin:15px;
+        margin-top: 1px;
+      }
+          h1{
+            font-size: 22px;
+            color:white;
+            line-height:50px;
+            font-family: "Righteous", cursive;
+          }
+          body{
+            background-color:  rgb(107, 158, 235);
+          }
+          .img{
+            width:200px;
+            height:200px;
+            margin-left:540px;
+          }
+         .img1,.img2,.img3,.img4,.img5{
+          width:200px;
+          height:190px;
+         }
+         .kotak,.kotak1,.kotak2,.kotak3.kotak4{
+          display: inline-block;
+          width: 200px;
+          height: 220px;
+          background-color: rgb(22, 101, 219);
+          margin:15px;
+          margin-left:30px;
+          border: 2px solid  rgb(22, 101, 219);
+      }
+      .img6,.img7,.img8,.img9,.img10,.img11{
+        width: 200px;
+        height: 150px;
+      }
+      .kotak5,.kotak6,.kotak7,.kotak8,.kotak9.kotak10{
+        display: inline-block;
+        width: 200px;
+        height: 325px;
+        background-color:  rgb(219, 228, 241);
+        border:2px solid white;
+      }
+      h2{
+        color:white;
+        font-size:16px;
+        text-align: center;
+      }
+      h5{
+        color:white;
+        font-size:14px;
+        text-align: center;
+      }  
+      h3{
+        color:black;
+        text-align: center;
+        font-size: 30px;
+      }
+      .pembungkus{
+        width:1280px;
+        height:1700px;
+        margin-left:40px;
+        background-color: white;
+       border: white solid 5px;
+      }
+      .pembungkus1{
+        width:1250px;
+        height:680px;
+        background-color:rgb(113, 167, 247);
+        margin-left:15px;
+      }
+      .pembungkus2{
+        width:1250px;
+        height:350px;
+        background-color:rgb(113, 167, 247);
+        margin-left:15px;
+      }
+      h4{
+        color:black;
+        margin-top:10px;
+        text-align: center;
+      }
+      hr{
+        color:rgb(113, 167, 247);
+      }
+      li{
+        color:white;
+        font-size:20px;
+      }
+
+      .card {
+        text-align: center; /* Membuat konten card menjadi berada di tengah */
+      }
+
+      .i {
+        width: 200px;
+        height: 200px;
+        display: block; /* Mengubah gambar menjadi blok agar dapat menggunakan margin: auto */
+        margin: auto; /* Memberikan margin otomatis di atas dan bawah, serta kiri dan kanan */
+      }
+    </style>
+    <!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="galery.html"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="jurusan.html">Jurusan</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="alamat.html">Alamat</a></li><hr>
+            <li><a class="dropdown-item" href="galery.html">Galery</a></li><hr>
+            <li><a class="dropdown-item" href="http://localhost/CRUD-SEKOLAH/CRUD-SEKOLAH/login.php" target="_blank">LOGIN</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+        <button class="btn btn-outline-success" type="submit">SMK N 1 PETASIA TIMUR</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- close navbar -->
+
+    <div class="row">
+      <!-- <div class="col-sm-6 mb-3 mb-sm-0">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div> -->
+      <div class="col-sm-12">
+        <div class="card" >
+          <img class="i" src="img/logo.png" alt="">
+          <div class="card-body">
+            <h2 class="card-title">SMKN 1 PETASIA TIMUR </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+      <div class="col">
+        <div class="card h-100" data-aos="zoom-in" data-aos-duration="3000">
+          <img src="img/siswa (1).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" data-aos="zoom-in" data-aos-duration="3000">
+          <img src="img/siswa (2).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <!-- <p class="card-text">This is a short card.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" data-aos="zoom-in" data-aos-duration="3000">
+          <img src="img/siswa.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> -->
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100" data-aos="zoom-in" data-aos-duration="3000">
+          <img src="img/siswa (4).jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <!-- <h5 class="card-title">Card title</h5> -->
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+  <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="col">
+      <div class="card h-100" data-aos="zoom-in" data-aos-duration="3000">
+        <img src="img/siswa (5).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <!-- <h5 class="card-title">Card title</h5> -->
+          <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" data-aos="zoom-in" data-aos-duration="3000">
+        <img src="img/siswa (6).jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <!-- <h5 class="card-title">Card title</h5> -->
+          <!-- <p class="card-text">This is a short card.</p> -->
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" data-aos="zoom-in" data-aos-duration="3000">
+        <img src="img/siswa20.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <!-- <h5 class="card-title">Card title</h5> -->
+          <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p> -->
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" data-aos="zoom-in" data-aos-duration="3000">
+        <img src="img/siswa16.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <!-- <h5 class="card-title">Card title</h5> -->
+          <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+        </div>
+      </div>
+    </div>
+    </div>
+    </div><br><br><br>
+
+     <!-- footer -->
+   <footer id="footer" class="bg-primary text-white text-center pb-4 pt-4">
+    <p>Create width By<a href="https://ermawati07.github.io/ermawati05.github.io/" target="_blank">Ermawati</a></p>
+  </footer>
+
+    
+
+    <!-- <div class="pembungkus"><br>
+      <div class="kota">
+        <img class="img" src="img/logo.png" alt="" data-aos="fade-left"  data-aos-duration="3000">
+        <h3 data-aos="fade-right"  data-aos-duration="3000"></h3>
+      </div><br><br>
+      <hr>
+      <div class="kotak1" data-aos="zoom-in" data-aos-duration="3000">
+        <img class="img2" src="" alt="">
+        <h2>MIRWANSYAH S.pd</h2>
+      </div>
+      <div class="kotak2" data-aos="zoom-in" data-aos-duration="3000">
+        <img class="img3" src="" alt="">
+        <h2>HERMAWAN S.pd</h2>
+      </div>
+      <div class="kotak" data-aos="zoom-in" data-aos-duration="3000">
+        <img class="img1" src="img/kepsek.jpg" alt="">
+        <h5>ALPIN LAINUA,S.pd.,M.Pkim</h5>
+      </div>
+      <div class="kotak1" data-aos="zoom-in" data-aos-duration="3000">
+        <img class="img2" src="" alt="">
+        <h2>NINING S.pd</h2>
+      </div>
+      <div class="kotak2" data-aos="zoom-in" data-aos-duration="3000">
+        <img class="img3" src="" alt="">
+        <h2>MARLINA S.pd</h2>
+      </div><hr><br><br>
+
+      <div class="pembungkus1"><br>
+      <div class="kotak5">
+        <img class="img6" src="img/siswa.jpg" alt="">
+        <h4>Mengikuti kegiatan Apresiasi Kebangsaan pembinaan OSIS SMK tahun 2022 Bidang Pembinaan SMK Dinas Pendidikan dan Kebudayaan Provinsi Selawesi Tengah</h4>
+      </div>
+      <div class="kotak6">
+        <img class="img7" src="img/siswa (2).jpg" alt="">
+        <h4> Non fugit quae sed voluptas totam suscipit beatae deserunt facere inventore nisi voluptatibus debitis dolores, corrupti nam unde dolorum aperiam nobis quos.</h4>
+      </div>
+      <div class="kotak7">
+        <img class="img8" src="img/siswa (7).jpg" alt="">
+        <h4> Dolore doloribus, provident, dicta nihil soluta dolores debitis nisi laboriosam at unde hic dolorum laudantium quaerat nemo iure pariatur ducimus aut similique?</h4>
+      </div>
+      <div class="kotak8" >
+        <img class="img9" src="img/siswa4.jpg" alt="">
+        <h4>kegiatan yang dikukan untuk pemperingati hari pramuka. muda yang gemar berkarya serta kejujuran dan integritas dalam setiap tindakan serta kata yang kita lakukan.</h4>
+      </div>
+      <div class="kotak7">
+        <img class="img8" src="img/siswa14.jpg" alt="">
+        <h4> esse magni culpa dolorum exercitationem temporibus repudiandae obcaecati eius, quaerat, dicta quisquam aliquid. Tempora iusto veritatis assumenda in repellendus?</h4>
+      </div>
+      <div class="kotak8" >
+        <img class="img9" src="img/siswa21.jpg" alt="">
+        <h4>siswa kopetensi keahlian teknik Pengelasan sedang melakukan pratek pembuatan sebuah produk yang dimana dapat menghasilkan sebuah penghasilan </h4>
+      </div>
+      <div class="kotak5">
+        <img class="img6" src="img/siswa (5).jpg" alt="">
+        <h4> sit voluptatibus nihil aspernatur illo distinctio esse eius, reprehenderit laudantium a? Ad error omnis consectetur veritatis esse labore officiis quod impedit.</h4>
+      </div>
+      <div class="kotak6">
+        <img class="img7" src="img/siswa (8).jpg" alt="">
+        <h4> fugit quae sed voluptas totam suscipit beatae deserunt facere inventore nisi voluptatibus debitis dolores, corrupti nam unde dolorum aperiam nobis quos.</h4>
+      </div>
+      <div class="kotak7">
+        <img class="img8" src="img/siswa1.jpg" alt="">
+        <h4>Lorem doloribus, provident, dicta nihil soluta dolores debitis nisi laboriosam at unde hic dolorum laudantium quaerat nemo iure pariatur ducimus aut similique?</h4>
+      </div>
+      <div class="kotak8" >
+        <img class="img9" src="img/siswa (4).jpg" alt="">
+        <h4> quae, nobis voluptatem et enim, inventore incidunt, placeat tenetur temporibus voluptate nihil perspiciatis. Provident, vero consectetur rerum voluptates repellendus excepturi </h4>
+      </div>
+      <div class="kotak7">
+        <img class="img8" src="img/siswa (6).jpg" alt="">
+        <h4> ex est esse magni culpa dolorum exercitationem temporibus repudiandae obcaecati eius, quaerat, dicta quisquam aliquid. Tempora iusto veritatis assumenda in repellendus?</h4>
+      </div>
+      <div class="kotak8" >
+        <img class="img9" src="img/siswa3.jpg" alt="">
+        <h4>Kegiatan pendidikan dan latihan dasar PMR dan PMI Kabupaten Morowali Utara diikuti oleh 9 peserta Didik SMK Negeri 1 Petasia Timur dan 1 pendamping pada kegiatan pada saat itu.</h4>
+      </div>
+     
+    </div><br>
+    <div class="pembungkus2"><br>
+      <div class="kotak5">
+        <img class="img6" src="img/siswa (1).jpg" alt="">
+        <h4>sit voluptatibus nihil aspernatur illo distinctio esse eius, reprehenderit laudantium a? Ad error omnis consectetur veritatis esse labore officiis quod impedit.</h4>
+      </div>
+      <div class="kotak6">
+        <img class="img7" src="img/siswa (6).jpg" alt="">
+        <h4> Non fugit quae sed voluptas totam suscipit beatae deserunt facere inventore nisi voluptatibus debitis dolores, corrupti nam unde dolorum aperiam nobis quos.</h4>
+      </div>
+      <div class="kotak7">
+        <img class="img8" src="img/siswa (7).jpg" alt="">
+        <h4> Dolore doloribus, provident, dicta nihil soluta dolores debitis nisi laboriosam at unde hic dolorum laudantium quaerat nemo iure pariatur ducimus aut similique?</h4>
+      </div>
+      <div class="kotak8" >
+        <img class="img9" src="img/siswa (8).jpg" alt="">
+        <h4> Nam quae, nobis voluptatem et enim, inventore incidunt, placeat tenetur temporibus voluptate nihil perspiciatis. Provident, vero consectetur rerum voluptates repellendus excepturi </h4>
+      </div>
+      <div class="kotak7">
+        <img class="img8" src="img/siswa (6).jpg" alt="">
+        <h4> esse magni culpa dolorum exercitationem temporibus repudiandae obcaecati eius, quaerat, dicta quisquam aliquid. Tempora iusto veritatis assumenda in repellendus?</h4>
+      </div>
+      <div class="kotak8" >
+        <img class="img9" src="img/siswa (9).jpg" alt="">
+        <h4> dolorem ipsa excepturi iste atque pariatur quisquam, autem cumque doloribus similique, praesentium voluptates tempora ratione magnam, accusantium consequuntur! </h4>
+      </div>
+    </div>
+    </div> -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script> 
+</body>
+</html>
